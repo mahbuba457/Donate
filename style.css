@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+
+
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+.cyan-color{
+    color:cyan;
+}
+
+.flexible-container{
+    display: flex;
+margin-bottom: 150px;
+}
+
+
+
+
+.half-width{
+    width:50%;
+    padding-left: 5%;
+
+}
+.half-width img{
+    width:80%;
+    
+}
+
+
+.link-button{
+    text-decoration:none;
+    background-image: linear-gradient(pink,purple);
+    background-color: green;
+    padding:10px 40px;
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.flexible-container{
+    display:flex;
+}
+.mission-item{
+    width:50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right:30px;
+    padding-left:20px;
+    border-radius:10px;
+    text-align:left;
+
+}
+.mission-item img{
+    width:30%;
+
+}
+.learning-color{
+    background-color:rgba(163,212,114,0.658) ;
+
+}
+.typing-color{
+    background-color:lightgreen;
+}
+
+.thinking-color{
+    background-color: lightcoral;
+}
+
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 140px;
+}
+.Dream-big{
+    background-image: url(images/dream-bg.png);
+    width: 80%;
+    background-repeat:no-repeat;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 140px;
+    margin:100px 300px;
+    align-items:center;
+
+ 
+}
+.corona{
+    text-align: center;
+}
+
+.red{
+  border-left: 1px palevioletred;
+
+
+}
+.footer {
+    text-align:center;
+    background: #111;
+    color:#fff;
+    font-family:'Franklin Gothic Medium', '
+}
+#donate{
+    text-align: center;
+}
