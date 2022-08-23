@@ -3,14 +3,21 @@ body{
     margin:0;
 }
 
-
-
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
-
+.line{
+    background: linear-gradien();
 }
+.h{
+    width:60%;
+    height:4px;
+    border:0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(221, 124, 197);
+}
+
+
 h1{
     font-size: 50px;
 }
@@ -24,20 +31,23 @@ h2{
 .banner{
     
        
-    background-image: url(images/donation5.jpg);
+    background-image: url(images/donation1.jpg);
     text-align: center;
     background-repeat: no-repeat;
-background-size: cover;
-
+    background-size: cover;
+   
 }
 
+#m{
+    color:whitesmoke;
+}
 
 
 
 #top{
     text-align: center;
 }
-
+   
 .cyan-color{
     color:cyan;
 }
@@ -45,6 +55,7 @@ background-size: cover;
 .flexible-container{
     display: flex;
 margin-bottom: 150px;
+
 }
 
 
