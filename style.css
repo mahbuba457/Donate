@@ -18,6 +18,26 @@ h2{
     font-size: 40px;
 }
 
+
+
+
+.banner{
+    
+       
+    background-image: url(images/donation5.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+
+#top{
+    text-align: center;
+}
+
 .cyan-color{
     color:cyan;
 }
@@ -63,7 +83,7 @@ margin-bottom: 150px;
     border-radius:10px;
     text-align:left;
 
-}
+} 
 .mission-item img{
     width:30%;
 
@@ -81,14 +101,7 @@ margin-bottom: 150px;
 }
 
 
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-repeat: no-repeat;
-    display: flex;
-    margin-bottom: 140px;
-}
+
 .Dream-big{
     background-image: url(images/dream-bg.png);
     width: 80%;
@@ -111,12 +124,55 @@ margin-bottom: 150px;
 
 
 }
+
+.experience-item {
+    width:10%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin: right 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px yellowgreen;
+}
+
+#today{
+    text-align: center;
+}
+#full-stack{
+    border: 7px solid tomato;
+    width:100%;
+   
+}
+#button{
+    text-align: center;
+}
+
+
+
 .footer {
     text-align:center;
     background: #111;
     color:#fff;
-    font-family:'Franklin Gothic Medium', '
+    font-family: 'Lobster',cursive;
 }
-#donate{
+    #donate{
     text-align: center;
 }
+.flexible{
+    display:flex;
+    
+}
+
+#orange{
+background-color: orangered;}
+.mission{
+    width:60%;
+   
+    box-shadow: 10px 10px 40px yellowgreen;
+}
+
+.l-color{
+        background-color:rgba(163,212,114,0.658) ;
+  
+    
+}
+   
